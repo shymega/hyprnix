@@ -6,7 +6,7 @@
     systems.url = "github:nix-systems/default-linux";
 
     aquamarine = {
-      url = "github:hyprwm/aquamarine/v0.13.0";
+      url = "github:hyprwm/aquamarine/v0.10.0";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.hyprutils.follows = "hyprutils";
@@ -38,7 +38,7 @@
     };
 
     hyprland = {
-      url = "github:hyprwm/hyprland/v0.56.1";
+      url = "github:hyprwm/hyprland/v0.55.4";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.aquamarine.follows = "aquamarine";
@@ -54,7 +54,7 @@
     };
 
     hyprland-guiutils = {
-      url = "github:hyprwm/hyprland-guiutils/v0.2.2";
+      url = "github:hyprwm/hyprland-guiutils/v0.2.1";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.aquamarine.follows = "aquamarine";
@@ -98,7 +98,7 @@
     };
 
     hyprlock = {
-      url = "github:hyprwm/hyprlock/v0.9.6";
+      url = "github:hyprwm/hyprlock/v0.9.5";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.hyprgraphics.follows = "hyprgraphics";
@@ -153,7 +153,7 @@
     };
 
     hyprsunset = {
-      url = "github:hyprwm/hyprsunset/v0.4.0";
+      url = "github:hyprwm/hyprsunset/v0.3.3";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.hyprland-protocols.follows = "hyprland-protocols";
@@ -174,7 +174,7 @@
     };
 
     hyprutils = {
-      url = "github:hyprwm/hyprutils/v0.14.0";
+      url = "github:hyprwm/hyprutils/v0.13.1";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
     };
@@ -193,7 +193,7 @@
     };
 
     xdph = {
-      url = "github:hyprwm/xdg-desktop-portal-hyprland/v1.4.0";
+      url = "github:hyprwm/xdg-desktop-portal-hyprland/v1.3.12";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.systems.follows = "systems";
       inputs.hyprland-protocols.follows = "hyprland-protocols";
