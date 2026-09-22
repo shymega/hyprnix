@@ -208,7 +208,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprtoolkit.url = "github:hyprwm/hyprtoolkit/v0.6.0";
+    hyprtoolkit.url = "github:hyprwm/hyprtoolkit?rev=16548bfa4d38296423ed49b6af1c6bc2677a5fdd";
     hyprtoolkit.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
