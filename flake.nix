@@ -132,7 +132,6 @@
     hyprpolkitagent.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
-      hyprland-qt-support.follows = "hyprland-qt-support";
       hyprutils.follows = "hyprutils";
     };
 
