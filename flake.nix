@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     systems.url = "github:nix-systems/default-linux";
 
-    aquamarine.url = "github:hyprwm/aquamarine/7bb8bdf4e8fedaf4dfae58512bc4c728671727df";
+    aquamarine.url = "github:hyprwm/aquamarine/163b138cfb22873de1e1bf253d57bf03154d1acd";
     aquamarine.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -20,7 +20,7 @@
       hyprlang.follows = "hyprlang";
     };
 
-    hyprgraphics.url = "github:hyprwm/hyprgraphics/7c895c44e3ca6d28ed68ddd80ec02b02b925e7fc";
+    hyprgraphics.url = "github:hyprwm/hyprgraphics/80c7d00f2236732853e390019ff8d79d17fa3612";
     hyprgraphics.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -37,7 +37,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprland.url = "github:hyprwm/hyprland/v0.56.2";
+    hyprland.url = "github:hyprwm/hyprland/v0.57.0";
     hyprland.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -53,7 +53,7 @@
       xdph.follows = "xdph";
     };
 
-    hyprland-guiutils.url = "github:hyprwm/hyprland-guiutils/4c30cf3097ea963c0e250749ee0c59f8b08816d6";
+    hyprland-guiutils.url = "github:hyprwm/hyprland-guiutils/d038577531e3ab6646b13a82d17e610be34c30cc";
     hyprland-guiutils.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -65,13 +65,13 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprland-protocols.url = "github:hyprwm/hyprland-protocols/v0.7.1";
+    hyprland-protocols.url = "github:hyprwm/hyprland-protocols/v0.8.0";
     hyprland-protocols.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
     };
 
-    hyprland-qt-support.url = "github:hyprwm/hyprland-qt-support/v0.1.0";
+    hyprland-qt-support.url = "github:hyprwm/hyprland-qt-support/05a7be67fb3ade62ac6f2b4bd35def316d29134e";
     hyprland-qt-support.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -84,7 +84,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    hyprlauncher.url = "github:hyprwm/hyprlauncher/339be04ba0fa8cde392dd0bae85cb23bf09212a5";
+    hyprlauncher.url = "github:hyprwm/hyprlauncher/v0.1.7";
     hyprlauncher.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -120,7 +120,7 @@
       hyprwire.follows = "hyprwire";
     };
 
-    hyprpicker.url = "github:hyprwm/hyprpicker/5c451cb4e9d6b1bd2f729d68de8aa114112c7390";
+    hyprpicker.url = "github:hyprwm/hyprpicker/8ec2bfc81ca016cb24b2fc102159d9a92cb410ef";
     hyprpicker.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -128,14 +128,14 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprpolkitagent.url = "github:hyprwm/hyprpolkitagent/0e4492994e211b9af9365f16a9fda35d32e106bb";
+    hyprpolkitagent.url = "github:hyprwm/hyprpolkitagent/3a1568629a71d337eb74f274fd9fd25f03408509";
     hyprpolkitagent.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
       hyprutils.follows = "hyprutils";
     };
 
-    hyprpwcenter.url = "github:hyprwm/hyprpwcenter/fe3c07de0b768713aaec409f392ee1261a5c6d28";
+    hyprpwcenter.url = "github:hyprwm/hyprpwcenter/b6ed8a7f20cf117479c0c4631f56e96f0cb6f0a1";
     hyprpwcenter.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -145,7 +145,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    hyprshutdown.url = "github:hyprwm/hyprshutdown/2d011c4a3dfb990004450e785608e91635f3d146";
+    hyprshutdown.url = "github:hyprwm/hyprshutdown/867e53ae11100b2ae3788734bfb11761aef00920";
     hyprshutdown.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -155,7 +155,7 @@
       hyprutils.follows = "hyprutils";
     };
 
-    hyprsunset.url = "github:hyprwm/hyprsunset/d729fc124fc93d93f5ad795e59c4ff30377fc4d4";
+    hyprsunset.url = "github:hyprwm/hyprsunset/b5c0b33e78a7a625d858edb0c7f6e3fd127579ba";
     hyprsunset.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -165,7 +165,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprtoolkit.url = "github:hyprwm/hyprtoolkit/b3f2d0e725e4eaf804af7e529cb69bbed43d1a04";
+    hyprtoolkit.url = "github:hyprwm/hyprtoolkit/5884544f1eb4549201a38ac42d63206da1384c99";
     hyprtoolkit.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -176,7 +176,7 @@
       hyprwayland-scanner.follows = "hyprwayland-scanner";
     };
 
-    hyprutils.url = "github:hyprwm/hyprutils/95983ee836ff205e615bba67d1f67098e1231941";
+    hyprutils.url = "github:hyprwm/hyprutils/v0.14.3";
     hyprutils.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
@@ -188,14 +188,14 @@
       systems.follows = "systems";
     };
 
-    hyprwire.url = "github:hyprwm/hyprwire/4ce7cd6b6128c1ac41caf23c58a30a26b327f9dd";
+    hyprwire.url = "github:hyprwm/hyprwire/a546e42d45e161682f729ebf52375bd4800d7041";
     hyprwire.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
       hyprutils.follows = "hyprutils";
     };
 
-    xdph.url = "github:hyprwm/xdg-desktop-portal-hyprland/e87ae7823e7bf0601385220c69b5a3b245123fc5";
+    xdph.url = "github:hyprwm/xdg-desktop-portal-hyprland/v1.5.0";
     xdph.inputs = {
       nixpkgs.follows = "nixpkgs";
       systems.follows = "systems";
